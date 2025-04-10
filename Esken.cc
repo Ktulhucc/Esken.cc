@@ -216,7 +216,7 @@ if game:IsLoaded() then
 end
 
 
-task.delay(15, function()
+task.delay(10, function()
     local success, err = pcall(function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Ktulhucc/KILLWARE/refs/heads/main/killware"))()
     end)
